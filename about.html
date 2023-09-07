@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INsure Sales Management Tool</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
+    <script src="app.js" defer></script>
+</head>
+<body class="m-0 p-0 font-lato font-[1rem] font-[400]">
+    <section class="object-cover object-center h-[80vh] bg-[#433A3A] flex flex-col" style="background-image: url('assets/bg-about.svg');">
+        <header class="flex items-center w-[80%] mx-auto justify-between">
+            <img src="assets/logo1.svg" alt="" >
+            <nav class="flex items-center space-x-6 text-white">
+              <a href="index.html">Home</a>
+              <a href="about.html">About</a>
+              <a href="#contact">Contact</a>
+              <div class="relative group">
+                <a href="">Pricing <i class="ri-arrow-down-s-fill"></i></a>
+                <ul class="hidden absolute left-0 mt-2 space-y-4 bg-white p-4 rounded-md shadow-lg group-hover:block text-black lg:w-[150px]">
+                  <li><a href="">Subscription</a></li>
+                  <li><a href="">7 Days Free Trial</a></li>
+                </ul>
+              </div>
+              <div class="relative group">
+                <a href="">Features <i class="ri-arrow-down-s-fill"></i></a>
+                <ul class="hidden absolute left-0 mt-2 space-y-4 bg-white p-4 rounded-md shadow-lg group-hover:block text-black lg:w-[150px]">
+                  <li><a href="">On the go Productivity</a></li>
+                  <li><a href="">Dashboards</a></li>
+                </ul>
+              </div>
+              <div>
+                <button class="border border-white px-6 py-2 mx-4 rounded-md hover:bg-[#DC6929] hover:border-0">Log In</button>
+                <button class="bg-[#DC6929] px-6 py-2 rounded-md hover:bg-white hover:text-black">Get Started</button>
+              </div>
+            </nav>
+          </header>   
+          <div class="my-auto ml-[50px] text-white">
+            <h1 class="text-[4rem] font-[700] shadow-xl">About Us</h1>
+            <p class="text-[1.5rem] w-[100%] lg:w-[50%] shadow-xl my-6">Welcome to INsure, your partner in revolutionizing the insurance industry! We understand that insurance agents play a critical role in safeguarding the future for individuals and businesses. That's why we've created the INsure app – a powerful tool designed to empower insurance agents like you to excel in your profession.</p>
+            <button class="bg-[#FF7F50] px-6 py-4 mx-4 rounded-md w-[15%] hover:bg-[#DC6929] hover:border-0 font-[700]">Contact Us</button>
+          </div>  
+</section>
+    <main>
+        <section class="text-center bg-[#F0F4FF] py-14">
+            <h2 class="text-[2.5rem] font-[700] text-[#0F4C81]">Our Mission</h2>
+            <p class="w-[100%] lg:w-[60%] my-6 mx-auto">At INsure, our mission is simple: to make your life as an insurance agent easier, more efficient, and ultimately more successful. We're dedicated to providing you with the tools and resources you need to track leads, manage sales, and enhance your productivity. </p>
+            <p class="w-[100%] lg:w-[60%] my-6 mx-auto">We believe that by streamlining your workflow, you can focus more on what truly matters – providing the best insurance solutions to your clients.</p>
+        </section>
+        <section>
+            <h2 class="text-[2.5rem] font-[700] text-[#0F4C81] text-center">What Stands Us Out</h2>
+
+        </section>             
+    </main>
+    <footer>
+        <section class="bg-[#FF7F50] p-8 h-[25vh] rounded-bl-[100px] rounded-br-[100px] flex flex-col justify-center items-center">
+            <h3 class="text-[2.5rem] font-[700]">Welcome to your new digital HQ</h3>
+            <div class="my-4">
+            <button class="bg-white px-6 py-2 mx-4 rounded-md hover:bg-[#DC6929] uppercase">7Day Trial</button>
+            <button class="bg-black px-6 py-2 rounded-md hover:bg-white hover:text-black uppercase text-white">talk to sales</button>
+        </div>
+        </section>
+        <section class="w-90% mx-auto p-12 flex flex-col lg:flex-row justify-between items-center">
+            <div class="w-[100%] lg:w-[20]">
+            <img src="assets/logo2.svg" alt="" class="mr-6">
+                <div>
+                    <i class="ri-instagram-fill text-[#FF7F50] text-[2rem] mr-2"></i>
+                    <i class="ri-facebook-circle-fill text-[#FF7F50] text-[2rem] mr-2"></i>
+                    <i class="ri-twitter-x-fill text-[#FF7F50] text-[2rem] mr-2"></i>
+                    <i class="ri-youtube-fill text-[#FF7F50] text-[2rem]"></i>
+                </div>
+            </div>
+            <div class="w-[100%] lg:w-[20]">
+                <h3 class="text-[#FF7F50] uppercase font-[700] text-[1.2rem] mb-4">Why insure</h3>
+                <a href="" class="block mb-4">Technology</a>
+                <a href="" class="block mb-4">Productivity</a>
+                <a href="" class="block mb-4">Onboarding</a>
+            </div>
+             <div class="w-[100%] lg:w-[20]">
+                <h3 class="text-[#FF7F50] uppercase font-[700] text-[1.2rem] mb-4">Product</h3>
+                <a href="" class="block mb-4">Dashboard</a>
+                <a href="" class="block mb-4">On the go Mobility</a>
+            </div>
+                <div class="w-[100%] lg:w-[20]">
+                <h3 class="text-[#FF7F50] uppercase font-[700] text-[1.2rem] mb-4">Pricing</h3>
+                <a href="pricepage.html" class="block mb-4">Paid</a>
+                <a href="" class="block mb-4">7Day Free Trial</a>
+            </div>
+                <div class="w-[100%] lg:w-[20]">
+                <h3 class="text-[#FF7F50] uppercase font-[700] text-[1.2rem] mb-4">Why insure</h3>
+                <a href="about.html" class="block mb-4">About Us</a>
+                <a href="" class="block mb-4">Notification</a>
+                <a href="" class="block mb-4">Customer Support</a>
+            </div>
+        </section>
+        <p class="text-center font-[700]">&copy; 2023  All Right Reserved, INsure Technologies. A Salesforce Company.</p>
+    </footer>
+</body>
+</html>
